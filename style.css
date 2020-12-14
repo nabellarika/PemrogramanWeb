@@ -1,0 +1,134 @@
+
+#welcome-section img {
+  width: 200px;
+  border: 8px solid #ffffff;
+}
+#welcome-section .jumbotron  {
+padding : 150px;
+height: 100vh;
+background-color : #2360A7;
+color: #ffffff;
+font-style: inherit;
+font-family: 'montserrat', sans-serif;
+backgrounsize: cover;
+display: block;
+font-size: 7rem;
+text-shadow:  4px 2px 15px black;
+
+}
+
+
+#about img {
+  border: none;
+  height : 400px;
+
+
+
+}
+.about hr {
+
+  width: 300px;
+  border-top : 3px solid #2360A7;
+}
+
+.about h2 {
+  color: #2360A7;
+}
+
+section {
+  min-height: 600px;
+}
+
+.projects{
+  background-color: #2360A7;
+}
+
+.projects hr {
+  width: 300px;
+  border-top : 3px solid #ffffff;
+}
+
+.projects h2 {
+  color: white;
+}
+
+.projects h3 {
+  color: white;
+
+}
+
+
+
+.projects img {
+height : auto;
+width : auto;
+}
+
+.contact h2 {
+  color: #2360A7;
+}
+
+.contact hr {
+  width: 300px;
+  border-top : 3px solid #2360A7;
+}
+
+footer {
+  position: absolute;
+ 
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  padding-top: 15px;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 1em;
+}
+
+footer p i {
+  color:salmon;
+}
+
+#projects h3{ 
+  font-size: 2vw;
+  font-color :#ffffff ; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+@media (max-width: 75em) {
+
+#welcome-section img {
+  width : 150px;
+}
+#welcome-section .jumbotron{
+  font-size : 75%
+}
+}
+
+
+@media (max-width: 61.25em) {
+
+ #welcome-section img {
+  width : 130px;
+}
+  #welcome-section .jumbotron{
+  font-size : 55%
+}
+}
+
+
+@media (max-width: 28.75em) {
+
+.welcome-section img {
+  width : 100px;
+   
+}
+#welcome-section .jumbotron{
+  font-size : 35%
+}
+}
+
